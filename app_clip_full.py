@@ -6,8 +6,18 @@ from transformers import CLIPProcessor, CLIPModel
 import folium
 from streamlit_folium import st_folium
 
-st.set_page_config(page_title="GreenScanAI", layout="wide")
-st.title("♻️ GreenScanAI")
+st.set_page_config(
+    page_title="GreenScanAI",
+    page_icon="GSA_Logo.png",  # your uploaded logo file path
+    layout="wide"
+)
+# st.title("♻️ GreenScanAI")
+col1, col2 = st.columns([1, 5])
+
+with col1:
+    st.image("GSA_Logo.png", width=80)
+
+with col2:
 
 # Load model
 @st.cache_resource
