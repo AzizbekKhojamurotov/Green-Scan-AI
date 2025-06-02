@@ -18,7 +18,7 @@ with col1:
     st.image("GSA_Logo.png", width=80)
 
 with col2:
-
+    st.title("♻️ GreenScanAI")
 # Load model
 @st.cache_resource
 def load_model():
