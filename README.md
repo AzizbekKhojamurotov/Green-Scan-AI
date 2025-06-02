@@ -1,33 +1,33 @@
 # 🌿 GreenScanAI
 
-**GreenScanAI** — bu sun’iy intellekt yordamida chiqindilarni aniqlash, tahlil qilish va foydalanuvchilarni ekologik ongli qarorlar qabul qilishga undovchi mobil web ilova (MVP). 
+**GreenScanAI** is a mobile web application (MVP) that uses artificial intelligence to detect and analyze waste, encouraging users to make environmentally conscious decisions.
 
-Ushbu loyiha **Eco Expo Central Asia 2025** ko‘rgazmasi doirasida ishlab chiqilgan bo‘lib, atrof-muhitga zararli chiqindilarni kamaytirish, ularni qayta ishlashga yo‘naltirish va aholiga foydali rag‘batlar berish orqali **yashil texnologiyalar**ni rivojlantirishga xizmat qiladi.
-
----
-
-## 🔍 Asosiy imkoniyatlar
-
-- 📷 **AI bilan chiqindi tasnifi** (CLIP modeli asosida)
-- 🌿 **Ekologik tavsiyalar**: zararli ta’sir, qayta ishlash foydasi, qutiga yo‘naltirish
-- 💰 **Eco Coin tizimi**: foydalanuvchi faoliyati uchun ball to‘planadi
-- 🗺️ **GreenMap**: yaqin atrofdagi chiqindi qutilarini xaritada ko‘rsatish
-- 👤 **Profil**: shaxsiy statistika, rank, va motivatsion interfeys
+This project was developed within the framework of the **Eco Expo Central Asia 2025**, aiming to reduce environmentally harmful waste, promote recycling, and support the development of **green technologies** by providing useful incentives to the public.
 
 ---
 
-## 🚀 MVP texnologiyalari
+## 🔍 Main Features
 
-- `Python` & `Streamlit` — frontend va backend
-- `Hugging Face Transformers` — AI model (CLIP)
-- `Torch` — modelni ishga tushirish uchun
-- `Folium` & `Streamlit-Folium` — xarita moduli
-- `Pillow` — tasvir bilan ishlash
-- (Kelajakda: `Firebase` ma'lumotlar bazasi va autentifikatsiya uchun)
+- 📷 **AI-powered waste classification** (based on the CLIP model)  
+- 🌿 **Environmental recommendations**: harmful impact, recycling benefits, bin direction  
+- 💰 **Eco Coin system**: users collect points for their activity  
+- 🗺️ **GreenMap**: displays nearby waste bins on the map  
+- 👤 **Profile**: personal statistics, rank, and motivational interface  
 
 ---
 
-## 🧪 Ishga tushirish
+## 🚀 MVP Technologies
+
+- `Python` & `Streamlit` — frontend and backend  
+- `Hugging Face Transformers` — AI model (CLIP)  
+- `Torch` — to run the model  
+- `Folium` & `Streamlit-Folium` — map module  
+- `Pillow` — working with images  
+- (In the future: `Firebase` for database and authentication)
+
+---
+
+## 🧪 Launch
 
 ```bash
 pip install -r requirements.txt
